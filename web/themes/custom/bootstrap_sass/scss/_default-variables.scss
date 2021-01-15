@@ -1,0 +1,317 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+// Set the directory for the theme root used to locate images, fonts etc.
+$theme-root: '..';
+
+// Set other directories relative to theme root.
+$image-path: '#{$theme-root}/images';
+$icon-font-path: '#{$theme-root}/bootstrap/assets/fonts/bootstrap/';
+
+div.views-row:nth-child(1) > div:nth-child(1) > span:nth-child(1) {
+ margin-left: 6%;
+}
+div.views-row:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+div.views-row:nth-child(1) > div:nth-child(3) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+div.views-row:nth-child(2) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+div.views-row:nth-child(2) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+div.views-row:nth-child(2) > div:nth-child(3) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+
+div.views-row:nth-child(3) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+div.views-row:nth-child(3) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+div.views-row:nth-child(3) > div:nth-child(3) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ margin-left: 6%;
+}
+
+div.views-col.col-1{
+	  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding: 10px 10px 10px 70px;
+  margin-top: 10px; 
+}
+div.views-col.col-2{
+	  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding: 10px 10px 10px 70px;
+  margin-top: 10px; 
+}
+div.views-col.col-3{
+	  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding: 10px 10px 10px 70px;
+  margin-top: 10px; 
+}
+div.views-view-grid .views-row {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-right: 0%;
+}
+div.views-row:nth-child(1) > div:nth-child(1) {
+ width: 33.333333333333%;
+ height: 317px;
+ width: 33%;
+}
+
+div.views-row:nth-child(1) > div:nth-child(2) {
+
+ height: 317px;
+ width: 33%;
+}
+
+div.views-row:nth-child(2) > div:nth-child(1) {
+ width: 33.333333333333%;
+ height: 317px;
+ width: 33%;
+}
+
+
+div.views-row:nth-child(1) > div:nth-child(3) {
+ width: 33.333333333333%;
+ height: 317px;
+ width: 30%;
+}
+div.views-row:nth-child(2) > div:nth-child(2) {
+ width: 33.333333333333%;
+ height: 318px;
+ width: 30%;
+}
+
+div.views-row:nth-child(2) > div:nth-child(3) {
+ width: 33.333333333333%;
+ height: 318px;
+ width: 30%;
+}
+div.views-row:nth-child(3) > div:nth-child(3) {
+ width: 33.333333333333%;
+ height: 324px;
+ width: 33%;
+}
+
+div.views-view-grid .views-row {
+ float:left;
+ clear:both;
+ width:90%;
+ margin-right:0%;
+}
+
+div.views-row:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+ margin-top: -3%;
+}
+div.views-row:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+ margin-top: -4%;
+}
+div.views-row:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+ /*! margin-top: -3%; */
+}
+div.views-row:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+}
+div.views-row:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+ margin-top: -1%;
+}
+div.views-row:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+ margin-top: -1%;
+}
+div.views-row:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+ /*! margin-top: -%; */
+}
+div.views-row:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -10%;
+}
+div.views-row:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ margin-left: -14%;
+ margin-top: -2%;
+}
+.js-quickedit-page-title {
+ color: black;
+ font-size: 30px;
+ font-style: italic;
+ text-align: center;
+ margin-left: -10%;
+}
+.js-quickedit-page-title {
+ font-family: "Brush Script MT", cursive;
+}
+
+div.views-row:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(1) > div:nth-child(3) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(2) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(2) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(2) > div:nth-child(3) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(3) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(3) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+div.views-row:nth-child(3) > div:nth-child(3) > span:nth-child(1) > span:nth-child(1) > a:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: larger;
+}
+body {
+ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-size:14px;
+ line-height:1.42857;
+ color:#333333;
+ background-color:#fff;
+}
+
+div.views-row:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+div.views-row:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ font-family: "Brush Script MT", cursive;
+ font-size: initial;
+}
+a {
+ color:#111315;
+ text-decoration:none;
+}
+div.views-row:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+div.views-row:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) {
+ white-space: nowrap;
+ width: 230px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+    .img-responsive:hover
+    {
+      opacity: 0.6;
+      filter: alpha(opacity=30);
+    }
+.img-responsive:hover {
+ opacity:0.6;
+ filter:alpha(opacity=30);
+ \.carousel-inner\>\.item\>a\>img\,\ \.carousel-inner\>\.item\>img\,\ \.img-responsive\,\ \.thumbnail\ a\>img\,\ \.thumbnail\>img\ \{\ display: block;
+ /*! max-width: 100%; *//*! height: auto; *//*! transform: rotateY(180deg); */transform: rotateY(180deg);
+}

@@ -1,0 +1,7 @@
+name: Holiday Postcards
+type: module
+description: Custom Module
+package: Views
+core: 8.x
+dependencies:
+  - drupal:views

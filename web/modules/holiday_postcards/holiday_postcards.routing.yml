@@ -1,0 +1,6 @@
+gallery_of_postcards:
+    path: /postcards/{count}
+    defaults:
+        _controller: Drupal\holiday_postcards\Controller\PostcardsController::postcards
+    requirements:
+        _permission: 'access content' 

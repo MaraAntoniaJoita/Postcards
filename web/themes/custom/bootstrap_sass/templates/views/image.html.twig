@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * Default theme implementation of an image.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the img tag.
+ * - style_name: (optional) The name of the image style applied.
+ *
+ * @ingroup templates
+ *
+ * @see template_preprocess_image()
+ */
+#}
+{% set classes = [
+  theme.settings.image_shape ? theme.settings.image_shape,
+  theme.settings.flip_card ? "flip-card",
+  theme.settings.flip_card_inner ? 'flip-card-inner',
+  theme.settings.flip_card_front ? 'flip-card-front',
+  theme.settings.image_responsive ? 'img-responsive',
+  theme.settings.flip_card_back ? 'flip-card-back',
+
+
+] %}
+<img{{ attributes.addClass(classes) }} />
