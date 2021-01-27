@@ -1,0 +1,5 @@
+alias start="docker-compose up -d"
+alias stop="docker-compose kill"
+alias composer="docker-compose exec php composer"
+alias cli="docker-compose exec php sh"
+alias drush="docker-compose exec php drush"
