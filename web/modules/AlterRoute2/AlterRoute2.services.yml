@@ -1,5 +1,0 @@
-services:
-  AlterRoute2.route_subscriber:
-    class: Drupal\AlterRoute2\Routing\RouteSubscriber
-    tags:
-      - { name: event_subscriber }
