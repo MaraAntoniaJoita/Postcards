@@ -22,11 +22,17 @@
     "drupal/console": "^1.0.2",
     "drupal/core": "^8.8.0",
     "drupal/core-composer-scaffold": "^8.8.0",
+    "drupal/examples": "1.1",
+    "drupal/maillog": "^1.0@beta",
+    "drupal/phpmailer": "3.0.0-beta1",
+    "drupal/smtp": "^1.0",
+    "drupal/token": "^1.9",
+    "drupal/webform": "^6.0",
     "drush/drush": "^9.7.1 | ^10.0.0",
+    "phpmailer/phpmailer": "^5.2.21",
     "vlucas/phpdotenv": "^4.0",
     "webflo/drupal-finder": "^1.0.0",
-    "zaporylie/composer-drupal-optimizations": "^1.0",
-    "drupal/examples": "1.1"
+    "zaporylie/composer-drupal-optimizations": "^1.0"
   },
   "require-dev": {
     "drupal/core-dev": "^8.8.0"

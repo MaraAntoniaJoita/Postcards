@@ -20,7 +20,9 @@
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
-        "drush/drush": "^9"
+        "drupal/smtp": "^1.0",
+        "drush/drush": "^9",
+        "phpmailer/phpmailer": "^6.2"
     },
     "conflict": {
         "drupal/drupal": "*"
